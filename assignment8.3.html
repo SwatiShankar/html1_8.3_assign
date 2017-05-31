@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Element Hiding using jQuery</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+/*In the below code all the input elements are hidden with 3000 milliseconds of speed*/
+$(document).ready(function(){
+	$('input').hide(3000);
+});
+</script>
+</head>
+<body>
+<form name="demo_form">
+First name : <input type="text" name="fname"><br><br>
+Last name : <input type="text" name="lastname"><br><br>
+			<input type="submit" value="Submit">
+</form>
+</body>
+</html>
